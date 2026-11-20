@@ -3,13 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Opening WorldGuessr…</title>
-  <meta http-equiv="refresh" content="0; url=https://www.worldguessr.com/">
+  <title>Play WorldGuessr</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #111827;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    a {
+      padding: 16px 24px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <p>Opening <a href="https://www.worldguessr.com/">WorldGuessr</a>…</p>
-  <script>
-    window.location.replace("https://www.worldguessr.com/");
-  </script>
+  <a href="https://www.worldguessr.com/" target="_blank" rel="noopener">
+    Play WorldGuessr
+  </a>
 </body>
 </html>
